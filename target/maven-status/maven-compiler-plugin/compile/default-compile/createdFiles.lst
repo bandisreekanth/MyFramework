@@ -1,0 +1,3 @@
+testBase\BaseTest.class
+testCases\UrlVerification.class
+testCases\LoginVerification.class

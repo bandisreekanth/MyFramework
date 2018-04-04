@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="48157" started-at="2018-04-03T10:00:21Z" finished-at="2018-04-03T10:01:09Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="48157" started-at="2018-04-03T10:00:21Z" finished-at="2018-04-03T10:01:09Z">
+      <class name="testCases.UrlVerification">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:testCases.UrlVerification@1ed4004b]" name="loginTest" duration-ms="10368" started-at="2018-04-03T15:30:22Z" data-provider="getData" finished-at="2018-04-03T15:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{WelcomeText=TELESONIC, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.UrlVerification@1ed4004b]" name="quit" is-config="true" duration-ms="195" started-at="2018-04-03T15:31:09Z" finished-at="2018-04-03T15:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.UrlVerification -->
+      <class name="testCases.LoginVerification">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.LoginVerification@ff5b51f]" name="init" is-config="true" duration-ms="495" started-at="2018-04-03T15:30:21Z" finished-at="2018-04-03T15:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.UrlVerification@1ed4004b]" name="init" is-config="true" duration-ms="89" started-at="2018-04-03T15:30:22Z" finished-at="2018-04-03T15:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:testCases.LoginVerification@ff5b51f]" name="loginTest" duration-ms="18268" started-at="2018-04-03T15:30:32Z" data-provider="getData" finished-at="2018-04-03T15:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserBranch=BLR, UserId=3000, UserRole=Admin, Password=Karvy@1234, Runmode=Y, UserName=SreekanthA, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:testCases.LoginVerification@ff5b51f]" name="loginTest" duration-ms="18710" started-at="2018-04-03T15:30:50Z" data-provider="getData" finished-at="2018-04-03T15:31:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserBranch=Hyderabad, UserId=62268, UserRole=Admin, Password=Karvy@1234, Runmode=Y, UserName=P Krishna Murthy, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testCases.LoginVerification -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
